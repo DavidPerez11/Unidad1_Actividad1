@@ -41,7 +41,7 @@ function buscarPatron(texto, patron) {
 
 function main() {
     
-    let texto = "000111101000ABCHO";
+    let texto = prompt("Introduzca el texto");
     let patronesABuscar = ["00", "101", "ABC", "HO"];
     let i;
 
